@@ -4,7 +4,7 @@
 #
 Name     : pyperf
 Version  : 2.0.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/84/49/8a5fb8eed0c600e763b33b6d4e62ffc7b0b9b13b03a69e7969fea5985f3a/pyperf-2.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/84/49/8a5fb8eed0c600e763b33b6d4e62ffc7b0b9b13b03a69e7969fea5985f3a/pyperf-2.0.0.tar.gz
 Summary  : Python module to run and analyze benchmarks
@@ -70,14 +70,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1585076772
+export SOURCE_DATE_EPOCH=1603401116
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build

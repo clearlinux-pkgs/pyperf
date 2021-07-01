@@ -4,7 +4,7 @@
 #
 Name     : pyperf
 Version  : 2.2.0
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/f5/15/e055fca622a985602df49e9afabd73c093cced18e0283c06918400fd196a/pyperf-2.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f5/15/e055fca622a985602df49e9afabd73c093cced18e0283c06918400fd196a/pyperf-2.2.0.tar.gz
 Summary  : Python module to run and analyze benchmarks
